@@ -1,22 +1,28 @@
 body {
   background-image: url('/images/homeimg.webp');
+
   color: #0c0101e1;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.80857;
   font-weight: normal;
   overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .top-navbar {
     background-color: #333;
     overflow: hidden;
   }
+.top-navbar ul li{
+    list-style: none;
+  }
 .top-navbar a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 10px 20px;
+    text-decoration:none;
     font-size: 17px;
   }
   
@@ -25,31 +31,18 @@ body {
     color: black;
   }
   
-.top-navbar li.active {
-    background-color: #04AA6D;
+.top-navbar a.active {
+    background-color: #3a2cf1;
     color: white;
   }
-
-
-/* .nav-list {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-  } */
-/* .nav-item {
-    margin-bottom: -1px;
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.nav-item {
+    margin-bottom: -5px;
   }
-  
-.nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  } */
-
 
 .home-middle {
     text-align: center;
@@ -63,3 +56,23 @@ body {
     margin-top:- X/2 px;
     margin-left:- Y/2 px;
 }
+.card {
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    width: fit-content;
+    background-color:#3a2cf1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  button{
+    height: 40px;
+    width: 100px;
+  }

@@ -1,0 +1,113 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #F0F0F0;
+}
+.top-navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+.top-navbar ul li{
+    list-style: none;
+  }
+.top-navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration:none;
+    font-size: 17px;
+  }
+  
+.top-navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.top-navbar a.active {
+    background-color: #3a2cf1;
+    color: white;
+  }
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.nav-item {
+    margin-bottom: -5px;
+  }
+
+.home-middle {
+    text-align: center;
+}
+.center{
+    position:absolute;
+    height: X px;
+    width: Y px;
+    left:50%;
+    top:50%;
+    margin-top:- X/2 px;
+    margin-left:- Y/2 px;
+}
+.card-container {
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.card-container:hover .card {
+  opacity: .4;
+  cursor: pointer;
+}
+.card-container .card {
+  margin: 15px;
+  width: 30%;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.05);
+  background: white;
+}
+.card-container .card:hover {
+  box-shadow: 0 0 8px 3px rgba(0,0,0,.15);
+  opacity: 1;
+}
+.card-container .card img {
+    width: 95%;
+    height: 50%;
+    margin: 10px;
+}
+.card-container .card .content {
+  padding: 15px 20px;
+}
+.card-container .card h3 {
+  font: 2.8rem/3.4rem 'Bree Serif', serif;
+  padding: 0;
+  margin: 0 0 10px;
+}
+.card-container .card p {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  font: 400 1.6rem/2.2rem 'Open Sans script=all', sans-serif;
+}
+.btns{
+    display: flex;
+    justify-content:space-around;
+}
+.more-button {
+    background-color:snow;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.more-button:hover {
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+.more-button {
+    transition: background-color 0.9s ease;
+}

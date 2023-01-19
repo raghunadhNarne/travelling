@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class="top-navbar">
+        <ul class="flex nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="packages.html">Pakages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=" ">Feedbacks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+
+<center class="form-class">
+    <form action="" id="f">
+        <table class="form-table" style="filter: alpha(opacity=40); opacity: 0.95;border:1px black solid;">
+            <tr>
+                <td>
+                    <label for="firstname">First Name: </label>
+                </td>
+                <td>
+                    <input type="text" id="firstname" placeholder="Enter First Name">
+                </td>
+                <td>
+                    <label for="lastname">Last Name: </label>
+                </td>
+                <td>
+                    <input type="text" id="lastname" placeholder="Enter Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email: </label>
+                </td>
+                <td>
+                    <input type="email" id="email" placeholder="narneraghunadh@keemail.me">
+                </td>
+                <td>
+                    <label for="phone">Phone: </label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter Phone Number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="desc">Description: </label>
+                </td>
+                <td colspan="3">
+                    <textarea id="desc" cols="63" rows="5" placeholder="Enter Your Decsripton Here"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <center>
+                    <input type="submit" id="submit" value="Send" style="width: 20%; height: 40px;">
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>
